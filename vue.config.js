@@ -63,12 +63,12 @@ module.exports = {
       '^/api': {
         target: DEV_URL,
         changeOrigin: false,
-        pathRewrite: {
+        pathRewrite: {  //asdasdass
           '^/api': ''
         }
       },
       '^/mock/': {
-        // TODO: 添加 mock地址
+        // TODO: 添加 mock地址 测试一下Git  hahahha adasdasd
         target: MOCK_URL,
         changeOrigin: false,
         pathRewrite: {
